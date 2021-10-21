@@ -1,2 +1,2 @@
 # my-pwp-netty
-Personal website project
+Netty personal website project
