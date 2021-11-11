@@ -16,13 +16,13 @@
 <!-- Navbar Section -->
 <div class="container-lg px-0 px-lg-3 mt-lg-3">
   <nav class="navbar navbar-expand-lg navbar-indigo bg-light border rounded-3">
-    <div class="container-fluid">
+    <div class="container-fluid" id="navbarContainer">
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#navbarNav"
-                aria-controls="navbarNav"
+                aria-controls="navbarContainer"
                 aria-expanded="false"
                 aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -40,13 +40,12 @@
 </div>
 
 <!-- About Me Section -->
-<p class="text-center display-3 py-5">Netty Ramirez</p>
-
+<p class="text-center display-2 py-5">Netty Ramirez</p >
 <section class="bg-secondary bg-light p-3">
  <div class="container">
     <div class="row g-5">
         <div class="col-md-3">
-            <img src="img/20211111_023915%20copy.png" alt="Artemis sleeping"
+            <img src="Pictures/20211111_023915.png" alt="Artemis sleeping"
                  class="img-fluid d-block mx-auto mb-5" width="512" height="640"></div>
         <div class="col-md-9">
                 <p>
@@ -75,27 +74,22 @@
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="./img/20211111_023915 copy.png" class="d-block w-100" alt="...">
+            <img src="./Pictures/20211111_023915.png" class="d-block w-100" alt="..."/>
         </div>
         <div class="carousel-item">
-            <img src="./img/20211111_023915 copy.png" class="d-block w-100" alt="...">
+            <img src="./Pictures/20211111_023915.png" class="d-block w-100" alt="..."/>
         </div>
         <div class="carousel-item">
-            <img src="./img/20211111_023915 copy.png" class="d-block w-100" alt="...">
+            <img src="./Pictures/20211111_023915.png" class="d-block w-100" alt="..."/>
         </div>
     </div>
 </div>
 </section>
 
 
-
-
-
-
-
 <!-- Contact Me -->
 <!-- Section: Contact -->
-<section class="mb-4 py-5">
+<section class="container mb-4 py-5">
 
     <!--Section heading-->
     <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h2>
@@ -107,7 +101,7 @@
 
         <!--Grid column-->
         <div class="col-md-9 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" action="" method="">
+            <form id="contact-form" name="contact-form">
 
                 <!--Grid row-->
                 <div class="row">
@@ -151,7 +145,7 @@
                     <div class="col-md-12">
 
                         <div class="md-form">
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <textarea typeof="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
                             <label for="message">Your message</label>
                         </div>
 
