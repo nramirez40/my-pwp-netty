@@ -2,12 +2,13 @@
 * {
     box-sizing: border-box;
 }
-
+/* Entire Backgroud Color*/
 body {
     font-family: fantasy;
     font-size: 17px;
     background-color: aliceblue;
 }
+
 .container img {vertical-align: middle;}
 
 .intro {
@@ -22,11 +23,11 @@ body {
 
 .content {
 
-   /* bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
     background: rgb(0, 0, 0); /* Fallback color */
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: #f1f1f1; /* Grey text */
-  /*  width: 100%; /* Full width */
+    width: 100%; /* Full width */
     padding: 20px; /* Some padding */
     margin-top: 10rem;
 }
